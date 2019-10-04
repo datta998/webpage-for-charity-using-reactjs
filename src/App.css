@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+}
+
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+}
+
+ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 95%;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+  margin-right: 140 px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: #B9AE98;
+  font-family: 'Playfair Display', serif;
+
+}
+
+li {
+ 
+  list-style-type: none;
+ color:#B9AE98;
+ 
+  
+}
+
+h1 {
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  color: #B9AE98;
+  font-family: 'Playfair Display', serif;
+}
+
+.form {
+  text-align: center;
+  
+}
+
+.about {
+  text-align: center;
+ 
+}
+
+h2 {
+  font-size: 30 px;
+  color: #B9AE98;
+  font-family: 'Playfair Display', serif;
+}
+
+h4 {
+  color: #B9AE98;
+  font-family: 'Playfair Display', serif;
+
+}
+.home {
+  text-align: center;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
